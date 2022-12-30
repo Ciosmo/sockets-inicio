@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOCKET CLIENT</title>
+</head>
+<body>
+        <H1>SOCKET CLIENT</H1>
+        <HR></HR>
+
+        <p style="font-size: 2em; text-align: center;">
+            Server Status:
+            <span id="lblOnline" style="color: green; ">Online</span>
+            <span id="lblOffline"style="color: brown; ">Offline</span>
+        </p>
+        <div class="contenido">
+            <div class="c-io">
+                <input type="text" id="txtMensaje" >
+            </div>
+            <div class="c-io">
+                <button id="btnSend">
+                    Enviar
+                </button>
+            </div>
+        </div>
+
+        <script src="./socket.io/socket.io.js"></script>
+        <script src="./js/socket-client.js"></script>
+</body>
+</html>
